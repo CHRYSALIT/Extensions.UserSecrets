@@ -84,6 +84,6 @@ The following minimal configuration does preserve the relationships between the 
 
 The result is as below:
 
-[![Secrets in Solution Explorer](./docs/assets/VSSolutionExplorerSecrets.png)](https://raw.githubusercontent.com/CHRYSALIT/Extensions.UserSecrets/main/docs/assets/VSSolutionExplorerSecrets.png)
+![Secrets in Solution Explorer](https://raw.githubusercontent.com/CHRYSALIT/Extensions.UserSecrets/main/docs/assets/VSSolutionExplorerSecrets.png)
 
 
