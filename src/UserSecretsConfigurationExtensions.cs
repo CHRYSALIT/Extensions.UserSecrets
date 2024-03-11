@@ -112,7 +112,7 @@ namespace Chrysalit.Extensions.UserSecrets
             UserSecretsIdAttribute? attribute = assembly.GetCustomAttribute<UserSecretsIdAttribute>();
             if (attribute != null)
             {
-                return AddUserSecretsInternal(configuration, attribute.UserSecretsId, hostEnvironment?.ApplicationName, optional, reloadOnChange);
+                return AddUserSecretsInternal(configuration, attribute.UserSecretsId, hostEnvironment?.EnvironmentName, optional, reloadOnChange);
             }
 
             if (!optional)
