@@ -263,7 +263,7 @@ Adding a new `environment` secret file is not well integrated (by example when a
 
 The result is displayed below:
 
-[![Secrets in Solution Explorer](./docs/assets/VSSolutionExplorerSecrets.png)](https://github.com/CHRYSALIT/Extensions.UserSecrets/blob/92c8449d439859d7ca37b927577f326ce943b096/docs/assets/VSSolutionExplorerSecrets.png)
+[![Secrets in Solution Explorer](./docs/assets/VSSolutionExplorerSecrets.png)](https://raw.githubusercontent.com/CHRYSALIT/Extensions.UserSecrets/main/docs/assets/VSSolutionExplorerSecrets.png)
 
 More information about this [MSBuild configuration](MSBuild.md) is provided for information.
 
