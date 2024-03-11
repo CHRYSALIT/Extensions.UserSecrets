@@ -146,10 +146,11 @@ namespace Chrysalit.Extensions.UserSecrets
             }
 
             string? directoryPath = Path.GetDirectoryName(secretPath);
+            string? fileName = Path.GetFileName(secretPath);
             PhysicalFileProvider? fileProvider = Directory.Exists(directoryPath)
                 ? new PhysicalFileProvider(directoryPath)
                 : null;
-            return configuration.AddJsonFile(fileProvider, secretPath, optional, reloadOnChange);
+            return configuration.AddJsonFile(fileProvider, fileName, optional, reloadOnChange);
         }
     }
 }
